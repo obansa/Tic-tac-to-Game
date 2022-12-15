@@ -1,5 +1,5 @@
 
-# Project Title
+# Tic Tac To Game
 A Simple Tic-tac-to game created with Java Script
 
 
