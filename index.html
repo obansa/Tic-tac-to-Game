@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col active" id="1"></div>
+            <div class="col active" id="4"></div>
+            <div class="col active" id="7"></div>
+        </div>
+        <div class="row">
+            <div class="col active" id="2"></div>
+            <div class="col active" id="5"></div>
+            <div class="col active" id="8"></div>
+        </div>
+        <div class="row">
+            <div class="col active" id="3"></div>
+            <div class="col active" id="6"></div>
+            <div class="col active" id="9"></div>
+        </div>
+    </div>
+    <div class="form" style="">
+        <div class="background"></div>
+        <div class="content">
+            <h4>Choose One (X or O)</h4>
+            <hr>
+            <div class="ox" style="margin-left: 25%;">
+                <input type="button" value="X" style="background: red;">
+                <input type="button" value="O" style="background: blue;">
+            </div>
+        </div>
+    </div>
+    <div class="over" style="display: none">
+        <div class="background"></div>
+        <div class="content">
+            <h4>You Won</h4><hr>
+            <input type="button" value="Cancel" style="background: red;">
+            <input type="button" value="Restart" style="background: blue;">
+            <input type="button" value="Menu" style="background: blue;">
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
