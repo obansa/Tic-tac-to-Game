@@ -74,7 +74,7 @@ function Input(){
             $('.active').removeClass('active').unbind('click')
         }
     }else{
-        $('.over h4').html('wow you won')
+        $('.over h4').html('wow! you won')
         $('.over').css('display', '')
         $('.active').removeClass('active').unbind('click')
     }
