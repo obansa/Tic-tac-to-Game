@@ -1,5 +1,5 @@
 
-# Tic Tac To Game
+# Tic Tac Toe Game
 A Simple Tic-tac-to game created with Java Script
 
 
